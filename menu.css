@@ -1,0 +1,8 @@
+#menu-grid {
+    width: 80%;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}

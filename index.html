@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Filibertos Mexican Food" content="Arizona's Favorite Mexican Food">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+    <title>Filiberto's</title>
+</head>
+<body>
+    <header class="flex">
+
+        <section class="flex" id="home">
+            <img src="./filibertos-logo.png" id="home-img" alt="Filiberto's logo">
+
+
+            <article class="text">
+                <h1>ARIZONA'S FAVORITE MEXICAN FOOD!</h1>
+                <p>All the Filiberto's cook everything from scratch daily. All of our meals are made with fresh meat and ingredients!</p>
+            </article>
+        </section>
+
+
+        <section class="buttons flex">
+            <button id="full-menu" onclick="location.href='./menu.html'" type="button">Full Menu</button>
+            <button id="daily-special" onclick="location.href='#daily-specials'" type="button">Daily Special</button>
+            <button id="locations-button" onclick="location.href='#locations'" type="button">Locations</button>
+        </section>
+
+    </header>
+
+
+    <main>
+        <nav id="navbar" class="flex">
+
+            <a href="./index.html">
+                <img src="./filibertos-logo.png" id="logo" alt="Filiberto's logo">
+            </a>
+
+            <ul class="nav-menu" class="flex">
+                <li class="nav-item"><a href="./menu.html">Menu</a></li>
+                <li class="nav-item"><a href="./index.html#locations">Locations</a></li>
+                <li class="nav-item"><a href="./index.html#daily-specials">Daily Specials</a></li>
+                <li class="nav-item" id="fish-button"><a href="./index.html#fish-container">Click Me</a></li>
+            </ul>
+
+            <div class="hamburguer">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+
+        <script src="./hamburguer.js"></script>
+
+        <section class="menu-div menu-bg" id="menu">
+                <!-- <aside id="aside-menu" clas="flex">
+                    <article class="aside-menu-item">Breakfast Platters</article>
+                    <article class="aside-menu-item">Breakfast Burritos</article>
+                    <article class="aside-menu-item">Burritos</article>
+                    <article class="aside-menu-item">Enchiladas</article>
+                    <article class="aside-menu-item">Tostadas</article>
+                    <article class="aside-menu-item">Tortas</article>
+                    <article class="aside-menu-item">Tacos</article>
+                    <article class="aside-menu-item">Quesadillas</article>
+                    <article class="aside-menu-item">Combination Platters</article>
+                    <article class="aside-menu-item">Side Orders</article>
+                    <article class="aside-menu-item">Extras</article>
+                    <article class="aside-menu-item">Drinks</article>
+                </aside> -->
+
+                <h2 class="section-header">Check Our Menu</h2>
+
+                <article class="items flex">
+
+                        <a href="./menu.html#breakfast-platters" class="menu-item">
+                            <div class="item-img">
+                                <img src="./image.png" alt="">
+                            </div>
+                            
+                            <div class="menu-item-text">
+                                <h4>Breakfast Platters</h4>
+                            </div>
+                        </a>
+                        <a href="./menu.html#breakfast-burritos" class="menu-item">
+                            <div class="item-img">
+                                <img src="./filibertos-logo.png" alt="">
+                            </div>
+                            
+                            <div class="menu-item-text">
+                                <h4>Breakfast Burritos</h4>
+                            </div>
+                        </a>
+                        <a href="./menu.html#burritos" class="menu-item">
+                            <div class="item-img">
+                                <img src="./filibertos-logo.png" alt="">
+                            </div>
+                            
+                            <div class="menu-item-text">
+                                <h4>Burritos</h4>
+                            </div>
+                        </a>
+                        <a href="./menu.html#enchiladas" class="menu-item">
+                            <div class="item-img">
+                                <img src="./filibertos-logo.png" alt="">
+                            </div>
+                            
+                            <div class="menu-item-text">
+                                <h4>Enchiladas</h4>
+                            </div>
+                        </a>
+                        <a href="./menu.html#tostadas" class="menu-item">
+                            <div class="item-img">
+                                <img src="./filibertos-logo.png" alt="">
+                            </div>
+                            
+                            <div class="menu-item-text">
+                                <h4>Tostadas</h4>
+                            </div>
+                        </a>
+                        <a href="./menu.html#tortas" class="menu-item">
+                            <div class="item-img">
+                                <img src="./filibertos-logo.png" alt="">
+                            </div>
+                            
+                            <div class="menu-item-text">
+                                <h4>Tortas</h4>
+                            </div> 
+                        </a>
+                        <a href="./menu.html#tacos" class="menu-item">
+                            <div class="item-img">
+                                <img src="./filibertos-logo.png" alt="">
+                            </div>
+                            
+                            <div class="menu-item-text">
+                                <h4>Tacos</h4>
+                            </div>
+                        </a>
+                        <a href="./menu.html#quesadillas" class="menu-item">
+                            <div class="item-img">
+                                <img src="./filibertos-logo.png" alt="">
+                            </div>
+                            
+                            <div class="menu-item-text">
+                                <h4>Quesadillas</h4>
+                            </div>
+                        </a>
+                        <a href="./menu.html#combination-platters" class="menu-item">
+                            <div class="item-img">
+                                <img src="./filibertos-logo.png" alt="">
+                            </div>
+                            
+                            <div class="menu-item-text">
+                                <h4>Combination Platters</h4>
+                            </div>
+                        </a>
+                        <a href="./menu.html#side-orders" class="menu-item">
+                            <div class="item-img">
+                                <img src="./filibertos-logo.png" alt="">
+                            </div>
+                            
+                            <div class="menu-item-text">
+                                <h4>Side Orers</h4>
+                            </div>
+                        </a>
+                        <a href="./menu.html#extras" class="menu-item">
+                            <div class="item-img">
+                                <img src="./filibertos-logo.png" alt="">
+                            </div>
+                            
+                            <div class="menu-item-text">
+                                <h4>Extras</h4>
+                            </div>
+                        </a>
+                        <a href="./menu.html#drinks" class="menu-item">
+                            <div class="item-img">
+                                <img src="./filibertos-logo.png" alt="">
+                            </div>
+                            
+                            <div class="menu-item-text">
+                                <h4>Drinks</h4>
+                            </div>
+                        </a>
+                </article>
+
+        </section>
+
+        <section id="locations" class="flex">
+            <h2>Find Our Nearest Location!</h2>
+
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d53236.3006818086!2d-112.22888786402238!3d33.49438319051912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sFiliberto&#39;s%20Mexican%20Food!5e0!3m2!1ses-419!2sus!4v1659907888656!5m2!1ses-419!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section id="about" class="flex">   
+            
+            <article id="about-text">
+                <h2>Serving Since 1993!</h2>
+
+                <h3>The celebration of Mexico&#39;s vibrant history and culture</h3>
+
+                <h4>
+                    Every Filiberto&#39;s cooks everything from scratch daily. All of the tacos, burritos, carne asada fries are all made with fresh meat and ingredients!
+                </h4>
+            </article>
+        
+        
+        </section>
+
+        <section id="daily-specials">
+
+            <h2 class="section-header">DAILY SPECIALS</h2>
+
+            <article id="specials-container" class="flex">
+                <section class="special flex">
+                    
+                </section>
+                <section class="special flex">
+    
+                </section>
+                <section class="special flex">
+                    
+                </section>
+                <section class="special flex">
+    
+                </section>
+                <section class="special flex">
+    
+                </section>
+                <section class="special flex">
+    
+                </section>
+                <section class="special flex">
+    
+                </section>
+            </article>
+            
+        </section>
+
+        <!-- <section id="merch">
+            <article id="product" class="flex">
+                <img src="" alt="burrito blanket">
+                <h3 class="text">Filiberto's Official Burrito Blanket</h3>
+                <h4 class="text">Cozy up with one of our burrito blankets right after you've eaten a delicous Arizona Burrito!</h4>
+                <button id="buy-merch-button">Get Your Blanket</button>
+            </article>
+        </section> -->
+
+        <div id="fish-container" class="flex">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/poa_QBvtIBA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+    </main>
+
+    <footer class="flex">
+
+        <ul>
+            <li class="footer-link">Menu</li>
+            <li class="footer-link">Daily Specials</li>
+            <li class="footer-link">Locations</li>
+            <li class="footer-link">X</li>
+        </ul>
+
+        <img src="./filibertos-logo.png" alt="filibertos logo">
+
+    </footer>
+
+</body>
+</html>
